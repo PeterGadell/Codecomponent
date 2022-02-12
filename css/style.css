@@ -1,0 +1,148 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: sans-serif;
+  line-height: 1.4;
+}
+
+.container {
+  width: 825px;
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 50px;
+  position: relative;
+}
+.product {
+  border: 5px solid black;
+}
+
+.product-title {
+  text-align: center;
+  background-color: #f7f7f7;
+  text-transform: uppercase;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.price {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.shipping {
+  text-transform: uppercase;
+  font-weight: 100;
+  font-size: 14px;
+  color: #777;
+  margin-bottom: 30px;
+}
+
+.para {
+  font-weight: bold;
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+a {
+  color: black;
+}
+
+.more-info:hover {
+  text-decoration: none;
+  color: black;
+}
+
+h4 {
+  text-transform: uppercase;
+  font-weight: bold;
+  margin-top: 30px;
+  margin-bottom: 10px;
+}
+
+ul li {
+  list-style: square;
+  margin-bottom: 10px;
+  margin-left: 30px;
+}
+
+button {
+  background-color: black;
+  color: #fff;
+  text-transform: uppercase;
+  font-weight: 100;
+  padding: 15px;
+  width: 100%;
+  border-top: 5px solid black;
+}
+
+button:hover {
+  background-color: white;
+  color: black;
+  text-transform: uppercase;
+  font-weight: 100;
+  cursor: pointer;
+}
+
+.sale {
+  background-color: red;
+  color: white;
+  padding: 5px 10px;
+  display: inline-block;
+  position: absolute;
+  top: -10px;
+  left: -20px;
+  letter-spacing: 2px;
+}
+
+.colorOne {
+  padding: 10px;
+  background-color: black;
+  display: inline-block;
+  margin-top: 30px;
+  margin-left: 10px;
+}
+.colorTwo {
+  padding: 10px;
+  background-color: black;
+  display: inline-block;
+  margin-top: 30px;
+  margin-left: 10px;
+}
+.colorTwo {
+  padding: 10px;
+  background-color: blue;
+  display: inline-block;
+  margin-top: 30px;
+  margin-left: 10px;
+}
+.colorThree {
+  padding: 10px;
+  background-color: red;
+  display: inline-block;
+  margin-top: 30px;
+  margin-left: 10px;
+}
+.colorFour {
+  padding: 10px;
+  background-color: yellow;
+  display: inline-block;
+  margin-top: 30px;
+  margin-left: 10px;
+}
+.colorFive {
+  padding: 10px;
+  background-color: lightgreen;
+  display: inline-block;
+  margin-top: 30px;
+  margin-left: 10px;
+}
+.colorSix {
+  padding: 10px;
+  background-color: brown;
+  display: inline-block;
+  margin-top: 30px;
+  margin-left: 10px;
+}
