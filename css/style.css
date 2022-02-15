@@ -1,6 +1,7 @@
 * {
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
 }
 
 body {
@@ -9,7 +10,7 @@ body {
 }
 
 .container {
-  width: 825px;
+  width: 900px;
   margin-right: auto;
   margin-left: auto;
   margin-top: 50px;
@@ -30,6 +31,7 @@ body {
 .price {
   font-size: 24px;
   font-weight: bold;
+  margin-top: 20px;
 }
 
 .shipping {
@@ -145,4 +147,22 @@ button:hover {
   display: inline-block;
   margin-top: 30px;
   margin-left: 10px;
+}
+
+.boxOne {
+  float: left;
+}
+.boxTwo {
+  float: left;
+  width: 260px;
+  margin-left: 40px;
+  margin-right: 40px;
+}
+
+.price {
+  display: inline-block;
+}
+.shipping {
+  float: right;
+  margin-top: 30px;
 }
