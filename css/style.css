@@ -18,6 +18,9 @@ body {
 }
 .product {
   border: 5px solid black;
+  display: grid;
+  grid-template-columns: 250px 1fr 1fr;
+  column-gap: 40px;
 }
 
 .product-title {
@@ -26,6 +29,7 @@ body {
   text-transform: uppercase;
   padding-top: 20px;
   padding-bottom: 20px;
+  grid-column: 1/-1;
 }
 
 .price {
@@ -78,6 +82,7 @@ button {
   padding: 15px;
   width: 100%;
   border-top: 5px solid black;
+  grid-column: 1 / 4;
 }
 
 button:hover {
@@ -149,7 +154,8 @@ button:hover {
   margin-left: 10px;
 }
 
-.boxOne {
+/* Floats */
+/* .boxOne {
   float: left;
 }
 .boxTwo {
@@ -158,6 +164,44 @@ button:hover {
   margin-left: 40px;
   margin-right: 40px;
 }
+
+
+
+
+
+/* Flexbox */
+
+/* .boxOne {
+  display: flex;
+  gap: 30px;
+}
+
+.productOne {
+  margin-right: 30px;
+  margin-left: 10px;
+  flex: 0 0 240px;
+}
+
+.spOne {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.shipping {
+  margin-top: 40px;
+  margin-right: 40px;
+}
+
+.shipPrice {
+  flex-shrink: 1;
+}
+
+button {
+  margin-top: 30px;
+} */
+
+/* Css Grid */
 
 .price {
   display: inline-block;
